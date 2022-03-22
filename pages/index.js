@@ -11,7 +11,7 @@ const HomePage = (props) => {
         <title>React Curse</title>
         <meta name="description" content="Browse for a NextJS app!" />
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </Fragment>
   );
 };
