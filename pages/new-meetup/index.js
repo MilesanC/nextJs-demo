@@ -28,7 +28,7 @@ const NewMeetupPage = () => {
         <title>React Curse</title>
         <meta name="description" content="Browse for a NextJS app!" />
       </Head>
-      <NewMeetupForm onAddMeetup={addMeetupHandler} />;
+      <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </Fragment>
   );
 };
